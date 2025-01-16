@@ -11,6 +11,26 @@ button {
   margin: 0 auto;
 }
 
+.voucher {
+  max-width: 600px;
+}
+
+.voucher .left {
+  border-right: 3px dashed white;
+  border-bottom: 0;
+  font-weight:bold;
+  font-size:4rem; 
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+@media only screen and (max-width: 600px){
+  .voucher.left  {
+    border-right: 0;
+    border-bottom: 3px dashed white;
+  }
+}
+
 @keyframes blinker {
   50% {
     opacity: 0.10;
