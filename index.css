@@ -38,9 +38,17 @@ button {
   border-bottom: 0;
   font-weight:bold;
   font-size:1rem; 
+  height:inherit;
 
-  margin: auto;
-  justify-content: space-between;
+}
+
+.voucher .left p{
+  margin: auto 0;
+
+}
+
+.voucher .right {
+    justify-content: space-between;
 }
 
 .voucher .right p {
@@ -49,6 +57,7 @@ button {
   width: 50%;
   text-align: right;
   line-height: 0.8;
+  
 }
 
 .voucher button {
@@ -56,9 +65,11 @@ button {
   margin-left:auto;
 }
 
-@media and (max-width:400px){
+@media screen and (max-width:400px){
+  .voucher .left {
     writing-mode: vertical-rl;
   text-orientation: upright;
+  }
 }
 
 @keyframes blinker {
