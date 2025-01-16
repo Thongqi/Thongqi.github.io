@@ -5,6 +5,7 @@ body{
   animation: blinker 0.80s linear infinite;
   margin-top: 10vw;
 }
+
 button {
   background-color: white;
   border-radius:10px ;
