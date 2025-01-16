@@ -11,8 +11,11 @@ button {
   -webkit-appearance: menulist;
   background-color: white;
   border-radius:5px ;
-  margin: 0 auto;
   border: 1px solid black;
+}
+
+.btn {
+  margin: 0 auto;
 }
 
 .voucher {
@@ -42,7 +45,7 @@ button {
 }
 
 .voucher .left p{
-  margin: auto 0;
+  margin: auto;
 
 }
 
@@ -61,7 +64,8 @@ button {
 
 .voucher button {
     width: fit-content;
-  margin-left:auto;
+    margin-left:auto;
+  font-siz: 0.8rem;
 }
 
 @media screen and (max-width:400px){
