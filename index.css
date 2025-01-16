@@ -2,13 +2,18 @@ body{
   text-align: center;
 }
 .blink {
-  animation: blinker 1s linear infinite;
+  animation: blinker 0.10s linear infinite;
   margin-top: 10vw;
+}
+button {
+  background-color: white;
+  border-radius:10px ;
+  margin: 0 auto;
 }
 
 @keyframes blinker {
   50% {
-    opacity: 0;
+    opacity: 0.10;
   }
 }
 
