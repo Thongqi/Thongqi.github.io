@@ -2,7 +2,7 @@ body{
   text-align: center;
 }
 .blink {
-  animation: blinker 0.10s linear infinite;
+  animation: blinker 0.80s linear infinite;
   margin-top: 10vw;
 }
 button {
