@@ -24,7 +24,7 @@ button {
 }
 
 .voucher {
-  
+      font-family: serif;
   max-width: 1000px;
   width: 80vw;
   margin: 5vw auto;
@@ -32,12 +32,14 @@ button {
   background-image: url(https://visit-nagano.alpico.co.jp/hubfs/images/Discount%20Tickets/Alps%20Crossing%20Ticket/where_photo02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ffffff8a;
+  background-color: #cbc0c08a;
   background-blend-mode: lighten;
 }
 
 .voucher h2 {
   font-size: calc(1.2rem + .9vw);
+  font-weight: 900;
+  font-family: serif;
 }
 
 .voucher .left {
@@ -64,13 +66,15 @@ button {
   width: 50%;
   text-align: right;
   line-height: 0.8;
-  
+  font-family: san-serif;
 }
 
-.voucher button {
+.voucher a {
+  margin-top: 2vw;
     width: fit-content;
     margin-left:auto;
-  font-siz: 0.8rem;
+  font-size: 0.8rem;
+  font-family: san-serif;
 }
 
 @media screen and (max-width:400px){
