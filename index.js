@@ -17,5 +17,5 @@ function makeConfetti(){
   var show = vouchers[gift];
   document.getElementById(show).classList.remove('d-none')
   document.getElementById("btn").classList.add('d-none')
-  confetti()
+  setTimeOut(confetti(), 3000);
 }
