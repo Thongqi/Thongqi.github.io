@@ -8,7 +8,7 @@ h1 {
 }
 
 .blink {
-  animation: blinker 0.80s linear infinite;
+  animation: blinker 1s linear infinite;
   margin-top: 10vw;
 }
 
@@ -28,7 +28,7 @@ button:hover {
 }
 
 .voucher {
-      font-family: serif;
+
   max-width: 1000px;
   width: 80vw;
   margin: 5vw auto;
@@ -44,6 +44,8 @@ button:hover {
   font-size: calc(1.2rem + .9vw);
   font-weight: 900;
   font-family: serif;
+      text-shadow: 4px 2px blueviolet;
+    color: darksalmon;
 }
 
 .voucher .left {
@@ -57,6 +59,8 @@ button:hover {
 
 .voucher .left p{
   margin: auto;
+  color: white;
+  text-shadow: purple;
 
 }
 
