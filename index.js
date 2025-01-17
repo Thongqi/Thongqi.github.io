@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function(){
 function makeConfetti(){
     confetti()
   const vouchers = ['alps', 'azusa']
-  const gift = array[Math.floor(Math.random() * vouchers.length)];
+  const gift = Math.floor(Math.random() * vouchers.length);
   console.log(vouchers[gift])
 }
