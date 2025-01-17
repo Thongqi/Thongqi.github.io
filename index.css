@@ -5,6 +5,8 @@ body{
 h1 {
   font-family: "Jersey 15", serif;
   font-weight: bold;
+   text-shadow: 4px 2px blueviolet;
+    color: darksalmon;
 }
 
 .blink {
@@ -17,6 +19,7 @@ button {
   background-color: white;
   border-radius:5px ;
   border: 1px solid black;
+  margin-top:50px;
 }
 
 button:hover {
@@ -44,8 +47,8 @@ button:hover {
   font-size: calc(1.2rem + .9vw);
   font-weight: 900;
   font-family: serif;
-      text-shadow: 4px 2px blueviolet;
-    color: darksalmon;
+       text-shadow: 1px 2px 2px #4c4545;
+    color: #fffef9;  
 }
 
 .voucher .left {
