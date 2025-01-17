@@ -63,7 +63,7 @@ button:hover {
 .voucher .left p{
   margin: auto;
   color: white;
-  text-shadow: purple;
+  text-shadow: 2px 1px powderblue, -1px -2px darkorange
 
 }
 
