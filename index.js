@@ -10,8 +10,12 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 function makeConfetti(){
-    confetti()
+    
   const vouchers = ['alps', 'azusa']
   const gift = Math.floor(Math.random() * vouchers.length);
   console.log(vouchers[gift])
+  var show = vouchers[gift];
+  document.getElementById(show).classList.remove('d-none')
+  document.getElementById("btn").classList.add('d-none')
+  confetti()
 }
