@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 function makeConfetti(){
-    
+  document.getElementById('video').play()
+  
   const vouchers = ['alps', 'azusa']
   const gift = Math.floor(Math.random() * vouchers.length);
   console.log(vouchers[gift])

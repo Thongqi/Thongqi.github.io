@@ -26,6 +26,12 @@ button:hover {
   scale: 1.05;
 }
 
+video {
+  width: 100vw;
+  max-width: 500px;
+  padding-right: 120px;
+}
+
 .btn {
   margin: 0 auto;
 }
