@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function makeConfetti(){
   document.getElementById('video').play()
-  document.getElementById('video').addEventListener('ended',myHandler,false);
+  document.getElementById('video').addEventListener('ended', setTimeout(myHandler, 3000),false);
   
 }
 
@@ -19,10 +19,10 @@ function myHandler (e){
   document.getElementById('video').classList.add('d-none')
   const vouchers = ['alps', 'azusa'];
   const gift = Math.floor(Math.random() * vouchers.length);
-  console.log(vouchers[gift])
+  console.log(vouchers[gift]);
   var show = vouchers[gift];
   document.getElementById(show).classList.remove('d-none')
    document.getElementById("msg").classList.remove('d-none')
   document.getElementById("btn").classList.add('d-none')
-  setTimeout(confetti(), 6000);
+  setTimeout(confetti(),3000);
 }
