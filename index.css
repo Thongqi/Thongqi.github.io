@@ -83,14 +83,18 @@ video {
     justify-content: space-between;
 }
 
+.voucher .right mark {
+  background-color: whitesmoke;
+}
+
 .voucher .right p {
   font-size: 0.65rem;
   margin-left:auto;
-  width: 50%;
-  text-align: right;
+  width: 100%;
+  text-align: center;
   line-height: 0.8;
   font-family: san-serif;
-  color:#4c4c4c;
+  color:#5c5656;
 }
 
 .voucher a {
