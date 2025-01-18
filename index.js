@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function makeConfetti(){
   document.getElementById('video').play()
-  document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+  document.getElementById('video').addEventListener('ended',myHandler,false);
   
 }
 
