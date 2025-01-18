@@ -16,13 +16,13 @@ function makeConfetti(){
 }
 
 function myHandler (e){
+  confetti()
   document.getElementById('video').classList.add('d-none')
   const vouchers = ['alps', 'azusa'];
   const gift = Math.floor(Math.random() * vouchers.length);
-  console.log(vouchers[gift]);
   var show = vouchers[gift];
   document.getElementById(show).classList.remove('d-none')
    document.getElementById("msg").classList.remove('d-none')
   document.getElementById("btn").classList.add('d-none')
-  confetti()
+  
 }
