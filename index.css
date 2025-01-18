@@ -41,11 +41,18 @@ video {
   width: 80vw;
   margin: 5vw auto;
   padding: 1vw 2vw;
-  background-image: url(https://visit-nagano.alpico.co.jp/hubfs/images/Discount%20Tickets/Alps%20Crossing%20Ticket/where_photo02.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #cbc0c08a;
   background-blend-mode: lighten;
+}
+#alps {
+  background-image: url(https://visit-nagano.alpico.co.jp/hubfs/images/Discount%20Tickets/Alps%20Crossing%20Ticket/where_photo02.jpg);
+}
+
+#azusa {
+  background-image: url(https://www.jreast.co.jp/multi/traininformation/azusa_kaiji/img/mv_pc.jpg);
 }
 
 .voucher h2 {
