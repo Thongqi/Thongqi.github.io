@@ -16,7 +16,7 @@ function makeConfetti(){
 }
 
 function myHandler (e){
-  document.getElementById('myVideo').classList.add('d-none')
+  document.getElementById('video').classList.add('d-none')
   const vouchers = ['alps', 'azusa'];
   const gift = Math.floor(Math.random() * vouchers.length);
   console.log(vouchers[gift])
